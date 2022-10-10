@@ -12,6 +12,6 @@ jobs:
           cache: true
      - run: go version
      - name: Build it all
-       run: |
+       run: >
          cd integration-tests
          make build-go
