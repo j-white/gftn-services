@@ -11,6 +11,6 @@ jobs:
           go-version: '1.17'
       - run: go version
       - name: Build it all
-        run: >
+        run: |
           cd integration-tests
           make build-go
