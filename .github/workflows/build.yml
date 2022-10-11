@@ -30,5 +30,6 @@ jobs:
         env:
           GOPATH: /home/runner/work/gftn-services/gftn-services
         run: |
+          go mod init github.com/GFTN/gftn-services
           cd integration-tests
           make build-go
