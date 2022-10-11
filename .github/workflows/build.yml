@@ -24,11 +24,7 @@ jobs:
           echo ${GITHUB_WORKSPACE}
           echo ${GOPATH}
           echo ${GOROOT}
-        env:
-          GOPATH: /home/runner/work/gftn-services/gftn-services
       - name: Build it all
-        env:
-          GOPATH: /home/runner/work/gftn-services/gftn-services
         run: |
           go mod init github.com/GFTN/gftn-services
           cd integration-tests
