@@ -32,6 +32,8 @@ log.txt
 # participant-registry
 # fee-service
 
+# submodule?
+gftn-models/ir/
 
 # compiled output
 gftn-web/dist
