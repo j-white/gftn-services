@@ -278,11 +278,12 @@
 
 [[projects]]
   digest = "1:41206f4d0410803e64cfb203f665330c3183988408cb532b56305a816a87bd99"
-  name = "github.com/go-resty/resty"
+  name = "gopkg.in/resty.v1"
   packages = ["."]
   pruneopts = "UT"
   revision = "fa5875c0caa5c260ab78acec5a244215a730247f"
   version = "v1.12.0"
+  source = "git@github.com:go-resty/resty.git"
 
 [[projects]]
   digest = "1:586ea76dbd0374d6fb649a91d70d652b7fe0ccffb8910a77468e7702e7901f3d"
