@@ -10,8 +10,6 @@ jobs:
       - run: go version
       - name: Check out code into the Go module directory
         uses: actions/checkout@v3
-        with:
-          path: go/src/github.com/j-white/gftn-services
       - name: Install swagger cli
         run: |
           URL="https://github.com/go-swagger/go-swagger/releases/download/v0.25.0/swagger_linux_amd64"
@@ -27,10 +25,10 @@ jobs:
           echo ${GOPATH}
           echo ${GOROOT}
         env:
-          GOPATH: /home/runner/work/j-white/gftn-services
+          GOPATH: /home/runner/work/gftn-services/gftn-services
       - name: Build it all
         env:
-          GOPATH: /home/runner/work/j-white/gftn-services
+          GOPATH: /home/runner/work/gftn-services/gftn-services
         run: |
           cd integration-tests
           make build-go
