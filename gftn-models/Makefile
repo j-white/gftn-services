@@ -11,6 +11,7 @@ swaggergen:
 	model/exchange_receipt.go \
 	./ || true
 	rm -rf model/
+	go mod init github.com/j-white/swagger
 	swagger generate model --with-flatten=full --spec=model-definitions/gftn-models.yaml --model-package=model --target=.
 	mv \
 	asset.go \
