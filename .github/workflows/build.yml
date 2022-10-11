@@ -13,6 +13,7 @@ jobs:
       - name: Install swagger
         run: |
           URL="https://github.com/go-swagger/go-swagger/releases/download/v0.25.0/swagger_linux_amd64"
+          mkdir -p "$HOME/.local/bin"
           curl -o "$HOME/.local/bin/swagger" -L'#' "$URL"
           chmod +x "$HOME/.local/bin/swagger"
           echo "$HOME/.local/bin" >> $GITHUB_PATH
