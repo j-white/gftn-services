@@ -845,6 +845,11 @@
   revision = "51d6538a90f86fe93ac480b35f37b2be17fef232"
   version = "v2.2.2"
 
+[[projects]]
+  name = "bitbucket.org/ww/goautone"
+  revision = "a7dc8b61c822528f973a5e4e7b272055c6fdb43e"
+  source = "git@github.com:munnerz/goautoneg.git"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
