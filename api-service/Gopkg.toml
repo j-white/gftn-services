@@ -88,3 +88,9 @@
 [[constraint]]
   branch = "master"
   name = "golang.org/x/crypto"
+
+[[constraint]]
+  branch = "master"
+  name = "bitbucket.org/ww/goautoneg"
+  source = "github.com/munnerz/goautoneg"
+
