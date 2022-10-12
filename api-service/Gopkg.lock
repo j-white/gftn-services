@@ -849,6 +849,7 @@
   name = "bitbucket.org/ww/goautoneg"
   revision = "a7dc8b61c822528f973a5e4e7b272055c6fdb43e"
   source = "git@github.com:munnerz/goautoneg.git"
+  version = "v0.0.0-20120707110453-75cd24fc2f2c"
 
 [solve-meta]
   analyzer-name = "dep"
