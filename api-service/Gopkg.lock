@@ -846,7 +846,7 @@
   version = "v2.2.2"
 
 [[projects]]
-  name = "bitbucket.org/ww/goautone"
+  name = "bitbucket.org/ww/goautoneg"
   revision = "a7dc8b61c822528f973a5e4e7b272055c6fdb43e"
   source = "git@github.com:munnerz/goautoneg.git"
 
