@@ -25,6 +25,11 @@
 #   unused-packages = true
 
 
+[[override]]
+  name = "bitbucket.org/ww/goautoneg"
+  source = "https://github.com/munnerz/goautoneg.git"
+  branch = "master"
+
 [[constraint]]
   name = "github.com/go-errors/errors"
   version = "1.0.1"

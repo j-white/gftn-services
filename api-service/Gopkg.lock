@@ -846,10 +846,13 @@
   version = "v2.2.2"
 
 [[projects]]
+  branch = "default"
+  digest = "1:24df057f15e7a09e75c1241cbe6f6590fd3eac9804f1110b02efade3214f042d"
   name = "bitbucket.org/ww/goautoneg"
-  revision = "a7dc8b61c822528f973a5e4e7b272055c6fdb43e"
-  source = "git@github.com:munnerz/goautoneg.git"
-  version = "v0.0.0-20120707110453-75cd24fc2f2c"
+  packages = ["."]
+  pruneopts = "UT"
+  source = "https://github.com/munnerz/goautoneg.git"
+  revision = "a547fc61f48d567d5b4ec6f8aee5573d8efce11d"
 
 [solve-meta]
   analyzer-name = "dep"
