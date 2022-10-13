@@ -28,7 +28,6 @@
 [[override]]
   name = "bitbucket.org/ww/goautoneg"
   source = "https://github.com/munnerz/goautoneg.git"
-  branch = "master"
 
 [[constraint]]
   name = "github.com/go-errors/errors"
